@@ -12,9 +12,7 @@ node {
         'AZURE_TENANT_ID=0adb040b-ca22-4ca6-9447-ab7b049a22ff',
           'AZURE_CLIENT_ID=ab8350a6-6673-49a4-894a-1b568a91d0c8'
            'AZURE_CLIENT_SECRET=33RI7-OYGLsJFhRLSOruoNvQdJYtq~RxRW'
-          ]
-         
-         ) {
+          ]) {
     stage('init') {
       checkout scm
     }
